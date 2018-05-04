@@ -49,7 +49,6 @@ while(True):
         cv2.waitKey(200)                                                        # waiting time of 200 milisecond
     cv2.imshow('frame', img)                                                    # showing the video input from camera on window
     cv2.waitKey(1)
-    print(type(d))
     if(sampleNum >= 20):                                                        # will take 20 faces
         break
 
